@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="" method="POST">
+    <label for="fname">First Nmae</label>
+    <input type="datetime-local"  name="fname" id="fname">
+    <input type="text"  autocomplete="off" autofocus name="fname" id="fname">
+    <br>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" autocomplete="off" name="lname" placeholder="enter your last name" id="lname">
+    <br>
+    <br>
+    <label for="suggestion">suggestion</label>
+    <br>
+   <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <label for="Languages">Languages</label>
+    <input type="checkbox" name="languages" id="html" checked>HTML
+    <input type="checkbox" name="languages" id="css" checked>CSS
+    <input type="checkbox" name="languages" id="js" checked>JAVASCRIPT
+    <br>
+    <br>
+    <label for="gender">gender</label>
+    <input type="radio" name="gender" id="male"  >MALE
+    <input type="radio" name="gender" id="female" checked>FEMALE
+    <br>
+    <br>
+    <label for="color">color </label>
+    <input type="color"  name="color" id="color">
+    <br>
+    <br>
+    <label for="date">date </label>
+    <input type="date"   name="date" id="date">
+    <br>
+    <br>
+    <label for="password">password </label>
+    <input type="password"  name="password" id="password">
+    <br>
+    <br>
+    <label for="email">email</label>
+    <input type="email"  name="email" id="email">
+    <br>
+    <br>
+    <label for="file">file</label>
+    <input type="file"  name="file" id="file">
+    <br>
+    <br>
+    <label for="month">month</label>
+    <input type="month"  name="month" id="month">
+    <br>
+    <br>
+    <label for="range">range</label>
+    <input type="range"  name="range" id="range">
+    <br>
+    <br>
+<button type="submit">Submit Feedback</button>
+
+<fieldset>
+ <legend>EXTRA INFORMATION</legend>
+ <label for="role">Role</label>
+ <select name="role" id="role">
+     <option value="">Select Option</option>
+     <option value="Faculty">Faculty </option>
+     <option value="Student">Student </option>
+     <option value="Admin">Admin </option>
+ </select>
+<br>
+<br>
+<label for="role">food</label>
+<br>
+<select name="role" id="role" size="2" multiple>
+        <option value="">Select Option</option>
+        <option value="Faculty">biryani </option>
+        <option value="Student">pizza </option>
+        <option value="Admin">drink </option>
+      </select>
+</fieldset>
+ <input type="submit" value="sign up">
+ <input type="reset" value="reset ">
+ <br>
+ <audio style="width: 59vh;  " src="enter audio link here" controls loop></audio>
+ <video src="SampleVideo_1280x720_2mb.mp4"    width="100%"    controls loop></video>
+</form>
+</body>
+</html>
